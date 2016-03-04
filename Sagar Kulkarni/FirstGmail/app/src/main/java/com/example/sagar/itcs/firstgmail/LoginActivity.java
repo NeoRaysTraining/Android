@@ -40,19 +40,18 @@ public class LoginActivity extends AppCompatActivity {
         editText=(EditText)findViewById(R.id.username_id);
         editText1=(EditText)findViewById(R.id.pwd_id);
         button=(Button)findViewById(R.id.button_1);
-        button1=(Button)findViewById(R.id.regbutton);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String s1=editText.getText().toString();//Getting the Edittext by gettext and converting to String
                 String s2=editText1.getText().toString();
-                if (s1.equals("Sagar") &&
+                if (s1.equals("Sagar") &
                         s2.equals("sagar")) {
-                    Intent i = new Intent(getBaseContext(), RegisterActivity.class);
+                    /*Intent i = new Intent(getApplicationContext(), RegisterActivity.class);
                     i.putExtra(MESSAGE_KEY,s1);
-                    startActivity(i);
-                    //setContentView(R.layout.successfullactivity);
+                    startActivity(i);*/
+                   setContentView(R.layout.successfullactivity);
                 } else {
                     editText.setVisibility(View.VISIBLE);
                     editText.setBackgroundColor(Color.RED);
@@ -62,16 +61,9 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(this, "Registration Successfull", Toast.LENGTH_SHORT).show();
-                finish();
-            }
-        });
     }
 
-   public void registerClick(View view){
+  public void registerClick(View view){
         button=(Button)findViewById(R.id.button_2);
         Intent intent=new Intent(this,RegisterActivity.class);
         startActivity(intent);

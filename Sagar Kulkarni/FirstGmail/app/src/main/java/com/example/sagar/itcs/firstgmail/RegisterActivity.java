@@ -18,18 +18,21 @@ public class RegisterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Intent intent=getIntent();
-        String messsage=intent.getStringExtra(MESSAGE_KEY+"Your Logged In");
+
+
+       /* Intent intent=getIntent();
+        String messsage=intent.getStringExtra(MESSAGE_KEY);
         TextView textView=new TextView(this);
         textView.setTextSize(45);
-        textView.setText(messsage);
-        setContentView(textView);
+        textView.setText(messsage+" Your WelCome");
+        //setContentView(textView);
 
+       setContentView(R.layout.activity_register);
+       // setContentView(textView);*/
+
+       button1=(Button)findViewById(R.id.regbutton);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        setContentView(R.layout.activity_register);
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,7 +42,13 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
-
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(RegisterActivity.this, "Registration Successfull", Toast.LENGTH_SHORT).show();
+                finish();
+            }
+        });
 
 
     }
