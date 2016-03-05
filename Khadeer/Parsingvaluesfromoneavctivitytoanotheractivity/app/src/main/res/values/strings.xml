@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">"Parsing values from one avctivity to another activity "</string>
+    <string name="action_settings">Settings</string>
+</resources>
