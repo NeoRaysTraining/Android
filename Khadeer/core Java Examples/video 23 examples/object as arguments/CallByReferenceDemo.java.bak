@@ -1,0 +1,100 @@
+/*program to implement call by reference*/
+class Box
+{
+	int w,h,d;
+	Box(int x,int y, int z)
+	{
+		w=x;
+		h=y;
+		d=z;
+	}
+		int volume()
+		{
+			int l;
+			l=w*h*d;
+			System.out.println(l);
+			return l;
+		}
+}
+
+class Test
+{
+	int x,y;
+	Test(int p,int q)
+	{
+		x=p;
+		y=q;
+	}
+	void show()
+	{
+		System.out.println("value of x and y is"+x+"\t"+y);
+	}
+}
+class  CallByReferenceDemo
+{
+	public static void main(String[] args) 
+	{
+		Box b=null;
+		b=new Box(10,20,30);
+		System.out.println("value of b is"+b);
+		System.out.println("value of w in box b is"+b.w);
+		System.out.println("value of h in box b is"+b.h);
+		System.out.println("value of d in box b is"+b.d);
+		m1(b);
+		System.out.println("value of w in box b is"+b.w);
+		System.out.println("value of h in box b is"+b.h);
+		System.out.println("value of d in box b is"+b.d);
+		Box b3 = m2(b);
+		Test t=new Test(5,6);
+			System.out.println("value of t is"+t);
+			System.out.println("value of x is"+t.x);
+			System.out.println("value of y is"+t.y);
+			m4(t);
+	}
+		static int m1(Box z)
+	{
+		System.out.println("value of z is");
+		System.out.println("value of w in z is"+z.w);
+		System.out.println("value of h in z is"+z.h);
+		System.out.println("value of d in z is"+z.d);
+		z.w*=1;
+		z.h*=2;
+		z.d*=2;
+		System.out.println("value of w in z is"+z.w);
+		System.out.println("value of h in z is"+z.h);
+		System.out.println("value of d in z is"+z.d);
+		return z.w;
+
+	}
+	static Box m2(Box z)
+	{
+		 System.out.println("value of box b is"+z);
+		 System.out.println("value of w in box b is "+z.w);
+		 System.out.println("value of h in box b is "+z.h);
+		 System.out.println("value of d in box b is "+z.d);
+		 Box b2=m3(z);
+		 System.out.println("value of box b is"+z);
+		 System.out.println("value of w in box b is "+z.w);
+		 System.out.println("value of h in box b is "+z.h);
+		 System.out.println("value of d in box b is "+z.d);
+		 return z;
+	}
+		static int m4(Test p)
+		{
+			System.out.println("value of p is"+p);
+			System.out.println("value of x is"+p.x);
+			System.out.println("value of y is"+p.y);
+			return p.x
+		}
+
+	static Box m3(Box z)
+	{
+		Box m=new Box(9,9,9);
+		System.out.println("value of m is "+m);
+		System.out.println("value of w in m is"+m.w);
+		System.out.println("value of h in m is"+m.h);
+		System.out.println("value of d in m is"+m.d);
+		return m;
+	}
+		
+}

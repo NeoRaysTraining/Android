@@ -1,0 +1,57 @@
+/* program to implement null value */
+
+class Test
+{
+	int x;
+	int y;
+	Test(int a,int b)
+	{
+		x=a;
+		y=b;
+	}
+	void fun()
+	{
+		System.out.println("value of x is "+x);
+		System.out.println("value of y is"+y);
+	}
+
+};
+
+class Box
+{
+		int w,h,d;
+		Box(int x,int y,int z)
+		{
+			w=x;
+			h=y;
+			d=z;
+		}
+		int volume()
+		{
+			int l=0;
+			l=w*h*d;
+			return l;
+	}
+};
+
+class NullDemo
+{
+public static void main(String[] args) 
+	{
+	/*	Box b=null;
+		b=new Box(1,2,3);
+		if(b!=null)
+		{
+			System.out.println("value of b is"+b);
+			System.out.println("value of w in b is"+b.w);
+		} */
+
+		Test t=null;
+		System.out.println("value of t is"+t);
+		System.out.println("value of x in t is"+t.x);
+		System.out.println("welcome");
+		System.out.println("End of Main"); 
+	}
+}
+
+	 

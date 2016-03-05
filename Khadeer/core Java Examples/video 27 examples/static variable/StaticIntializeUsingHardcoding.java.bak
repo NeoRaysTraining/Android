@@ -1,0 +1,48 @@
+/* program to intialize static variables by hardcoding */
+
+class Hello
+{
+	static int a=1;
+	int b=2;
+	static
+		{
+		System.out.println("Inside static block");
+		System.out.println("value of a in static block is"+a);
+		//System.out.println("value of b in static block is"+b); //instance member cannot be accessed in static context
+		}
+		{
+		System.out.println("Inside instance block");
+		System.out.println("value of a in instance block is"+a);
+		System.out.println("value of b in instance block is"+b);
+		}
+		Hello()
+		{
+		System.out.println("Inside constructor");
+		System.out.println("value of a in constructor is"+a);
+		System.out.println("value of b in constructor is"+b);
+		}
+		static void m1()
+		{
+		System.out.println("Inside static m1() method");
+		System.out.println("value of a in static m1() is"+a);
+		System.out.println("value of b in static m1() is"+b); //instance member cannot be accessed in static context
+		}
+		void m2()
+		{
+		System.out.println("Inside inside m2() method is");
+		System.out.println("value of a in m2() method is"+a);
+		System.out.println("value of b in m2() method is"+b);
+		}
+	}
+
+
+class StaticIntializeUsingHardcoding
+{
+	public static void main(String[] args) 
+	{
+		Hello h=null; //reference variable
+		Hello.m1();
+		h=new Hello(); //we can access non static methods by creating objects i.e..m2() method
+		h.m2();
+	}
+}

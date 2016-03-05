@@ -1,0 +1,40 @@
+/*program to implement how many objects of particular class has been created */
+
+class Box
+{
+	int w;
+	int h;
+	int d;
+	static int count;
+	Box(int w,int h,int d)
+	{
+		this.w=w;
+		this.h=h;
+		this.d=d;
+		count++;
+	}
+		Box(int w,int h)
+		{
+		this.w=w;
+		this.h=h;
+		this.d=d;
+		count++;
+		}
+		Box(int x)
+		{
+			w=h=d=x;
+			count++;
+		}
+}
+class ObjectCount
+{
+	public static void main(String[] args) 
+	{
+		Box b1=new Box(1,2,3);
+		Box b2=new Box(10,20);
+		Box b3=new Box(5);
+		System.out.println(Box.count);
+		Box b4;
+		b4=b3;
+	}
+}

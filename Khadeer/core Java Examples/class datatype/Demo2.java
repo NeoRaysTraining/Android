@@ -1,0 +1,38 @@
+/* program to implement class using dot operator */
+
+class Box
+{
+	int w,h,d;
+};
+class  Demo2
+{
+	public static void main(String[] args) 
+	{
+		int z;
+		Box b; //declaring a reference variable
+		b=new Box(); //creating an instance
+		System.out.println("value of w in box b is"+b.w);
+		System.out.println("value of h in box b is"+b.h);
+		System.out.println("value of d in box b is"+b.d);
+		b.w=1;
+		b.h=2;
+		b.d=3;
+		System.out.println("value of w in box b is"+b.w);
+		System.out.println("value of h in box b is"+b.h);
+		System.out.println("value of d in box b is"+b.d);
+		int vol=b.w*b.h*b.d;
+		System.out.println("volume of box b is"+vol);
+		Box b1;
+		b1=new Box();
+		b1.w=4;
+		b1.h=5;
+		b1.d=6;
+		System.out.println("value of w in box b is"+b1.w);
+		System.out.println("value of h in box b is"+b1.h);
+		System.out.println("value of d in box b is"+b1.d);
+		int vol1=b1.w*b1.h*b1.d;
+		System.out.println("volume of box b is"+vol1);
+
+
+	}
+}

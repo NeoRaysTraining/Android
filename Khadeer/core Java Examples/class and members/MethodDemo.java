@@ -1,0 +1,37 @@
+/*program to implement class and assigning the values in a method*/
+
+class Box
+{
+	int w,h,d;
+	void fun(int x, int y, int z)
+	{
+		w=x;
+		h=y;
+		d=z;
+	}
+	int volume()
+	{
+		int l;
+		l=w*h*d;
+		System.out.println(l);
+		return l;
+	}
+};
+class MethodDemo
+{
+	public static void main(String[] args) 
+	{
+	 Box b1; //declaring a reference variable
+	 b1=new Box(); //creating an object
+		System.out.println("value of b1 is"+b1);
+		System.out.println("value of w in b1 is:"+b1.w);
+		System.out.println("value of h in b1 is:"+b1.h);
+		System.out.println("value of d in b1 is:"+b1.d);
+		b1.fun(1,2,3); 
+		System.out.println("value of w in b1 is:"+b1.w);
+		System.out.println("value of h in b1 is:"+b1.h);
+		System.out.println("value of d in b1 is:"+b1.d);
+		int x= b1.volume();
+		System.out.println("volume of box  b1 is:"+x);
+	}
+}

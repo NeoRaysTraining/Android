@@ -1,0 +1,39 @@
+class DataTypeDemo 
+{
+	public static void main(String[] args) 
+	{
+		/*byte b=5;
+		System.out.println("value of b is"+b);
+		//b1=129;
+		byte b1=(byte)129; // explicit casting
+		System.out.println("value of b is"+b); */
+
+		/*long l=12L;
+		System.out.println("value of l is"+l); */
+
+
+	/*	//floating values
+		float f=12.679f; //single precision value
+		System.out.println("value of f is"+f); */
+
+	/*	//double precision values with standard notation
+		double d=75000.0;
+		System.out.println("value of d is "+d); */
+
+	/*	//double precision values with exponential notation
+		//double d=7.5e4;
+		//double d=75e3;
+		double d=.75e5;
+		System.out.println("value of d is "+d); */
+
+	/* // double precision fractional value standard notation
+	double d=0.000075;
+	System.out.println("value of d is "+d); */
+
+	// double precision fractional value scientific notation 
+       double d=7.5e-4;
+	   System.out.println("value of d is "+d);
+
+
+	}
+}
