@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.administrator.menuapp.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="101"
+        android:title="Delete"/>
+
+    <item
+        android:title="item3"
+        android:orderInCategory="103"/>
+
+    <item app:showAsAction="always"
+        android:title="color">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+            <item android:title="Red"
+                android:onClick="onColorClick"/>
+            <item android:title="Green"
+                android:onClick="onColorClick"/>
+            <item android:title="Yellow"
+                android:onClick="onColorClick"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
