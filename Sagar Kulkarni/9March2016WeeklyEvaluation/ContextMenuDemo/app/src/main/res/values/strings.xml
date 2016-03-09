@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ContextMenuDemo</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="contact_names">
+        <item>Sagar</item>
+        <item>Sameer</item>
+        <item>Khadeer</item>
+        <item>Archana</item>
+        <item>Mahima</item>
+    </string-array>
+</resources>
