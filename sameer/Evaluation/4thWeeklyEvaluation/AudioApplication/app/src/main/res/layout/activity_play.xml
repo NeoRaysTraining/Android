@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    tools:context="com.example.sameer.audioapplication.Play">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nothing"
+        android:background="#000000"
+        android:src="@drawable/music"
+        android:contentDescription="Image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek_bar"
+        android:layout_below="@id/nothing"
+        android:layout_marginTop="20dp"
+        android:background="#001ae1"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/seek_bar"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backward"
+            android:background="#000000"
+            android:src="@drawable/backward"
+            android:contentDescription="Image"
+            android:layout_marginTop="40dp"
+            />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/play"
+            android:src="@drawable/play"
+            android:background="#000000"
+            android:contentDescription="Image"
+            android:layout_marginTop="40dp"
+
+            />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forward"
+            android:background="#000000"
+            android:src="@drawable/forward"
+            android:contentDescription="Image"
+            android:layout_marginTop="40dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
