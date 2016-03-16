@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\SAMEER_RANJAN_M_(NR_152)\ANDROID\ProjectCode\AndroidProjects\AudioApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="D:\SAMEER_RANJAN_M_(NR_152)\ANDROID\ProjectCode\AndroidProjects\AudioApplication\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_ee374d1abd57c3d634112e70c4fe2b1d1c616e78.jar" />
+    </item>
+    <item
+        jar="C:\Users\sameer\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="D:\SAMEER_RANJAN_M_(NR_152)\ANDROID\ProjectCode\AndroidProjects\AudioApplication\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_2ca0a392393a484104bc8cc6fd6343b01bdaa07c.jar" />
+    </item>
+    <item
+        jar="D:\SAMEER_RANJAN_M_(NR_152)\ANDROID\ProjectCode\AndroidProjects\AudioApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="D:\SAMEER_RANJAN_M_(NR_152)\ANDROID\ProjectCode\AndroidProjects\AudioApplication\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_674440b8ec19c29d3bcdf5ffe1f3f8036d040472.jar" />
+    </item>
+    <item
+        jar="D:\SAMEER_RANJAN_M_(NR_152)\ANDROID\ProjectCode\AndroidProjects\AudioApplication\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="D:\SAMEER_RANJAN_M_(NR_152)\ANDROID\ProjectCode\AndroidProjects\AudioApplication\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.0_453587ca53ad2f350f05adf998583eca7bb8c20a.jar" />
+    </item>
+    <item
+        jar="D:\SAMEER_RANJAN_M_(NR_152)\ANDROID\ProjectCode\AndroidProjects\AudioApplication\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="D:\SAMEER_RANJAN_M_(NR_152)\ANDROID\ProjectCode\AndroidProjects\AudioApplication\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_8f472370f4cfe7b828a523d97bd550682f1a7bf7.jar" />
+    </item>
+    <item
+        jar="D:\SAMEER_RANJAN_M_(NR_152)\ANDROID\ProjectCode\AndroidProjects\AudioApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="D:\SAMEER_RANJAN_M_(NR_152)\ANDROID\ProjectCode\AndroidProjects\AudioApplication\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_75425040f140fac0a7e944dae27ec1d0b7df85df.jar" />
+    </item>
+
+</items>
