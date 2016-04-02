@@ -1,4 +1,4 @@
-package com.itcs.amarsimplefragment;
+package com.itcs.amarfragmenttest;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

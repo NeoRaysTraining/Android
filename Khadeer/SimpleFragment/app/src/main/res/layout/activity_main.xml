@@ -1,17 +1,23 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8" ?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    android:weightSum="1.0">
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment No.1"
+        android:onClick="selectFrag" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="selectFrag"
+        android:text="Fragment No.2" />
     <fragment
-        android:layout_height="match_parent"
+        android:name="com.itcs.amarfragmenttest.FragmentOne"
+        android:id="@+id/fragment_place"
         android:layout_width="match_parent"
-        class="com.itcs.amarsimplefragment.MenuFragment"
-        android:id="@+id/fragment" android:layout_weight="0.5" />
-    <fragment
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        class="com.itcs.amarsimplefragment.TextFragment"
-        android:id="@+id/fragment2"
-        android:layout_weight="0.5" />
+        android:layout_height="match_parent" />
 </LinearLayout>

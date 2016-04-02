@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AmarSimpleFragment.iml" filepath="$PROJECT_DIR$/AmarSimpleFragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AmarFragmentTest.iml" filepath="$PROJECT_DIR$/AmarFragmentTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
