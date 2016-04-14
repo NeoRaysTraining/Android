@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">OptionMenuApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_search">Search</string>
+    <string name="title_share">Share</string>
+</resources>
