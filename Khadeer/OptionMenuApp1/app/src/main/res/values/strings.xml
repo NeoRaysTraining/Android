@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OptionMenuApp1</string>
+    <string name="action_settings">Settings</string>
+        <string name="title_red">RED</string>
+        <string name="title_blue">BLUE</string>
+        <string name="title_purple">PURPLE</string>
+        <string name="title_green">GREEN</string>
+    </resources>
+
