@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp">
+
+    <EditText
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:onClick="searchContact"
+        android:layout_toRightOf="@id/search_name"
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:text="Update Contact"
+        android:layout_below="@id/search_name"
+        android:textSize="30sp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/title_text"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_name"
+        android:hint="NAME HERE"
+        android:layout_below="@+id/title_text"
+        android:layout_marginTop="20sp"
+        android:textStyle="italic|bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_name"
+        android:layout_marginTop="20sp"
+        android:hint="MOBILE"
+        android:textStyle="italic|bold"
+        android:id= "@+id/new_mobile"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_mobile"
+        android:layout_marginTop="20sp"
+        android:hint="EMAIL HERE"
+        android:textStyle="italic|bold"
+        android:id="@+id/new_email"/>
+<Button
+    android:layout_width="200sp"
+    android:layout_height="wrap_content"
+    android:id="@+id/updateContact"
+    android:layout_below="@id/new_email"
+    android:layout_centerHorizontal="true"
+    android:onClick="updateContact"
+    android:text="UpdateContact"
+    android:textSize="20sp"
+    android:layout_marginTop="30sp"/>
+</RelativeLayout>
