@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ListView Using CustomAdapter</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="Fname">
+        <item>Khadeer</item>
+        <item>Sagar</item>
+        <item>Sameer</item>
+        <item>Sharukh</item>
+        <item>Aamir</item>
+        <item>Salman</item>
+        <item>Fardeen</item>
+        <item>Mahesh</item>
+        <item>Hrithik</item>
+        <item>Katrina</item>
+        <item>Anushka</item>
+        <item>Kajol</item>
+    </string-array>
+    <string-array name="Lname">
+    <item>Basha</item>
+    <item>Kulkarni</item>
+    <item>Ranjan</item>
+    <item>Khan</item>
+    <item>Khan</item>
+    <item>Khan</item>
+    <item>Khan</item>
+    <item>Babu</item>
+    <item>Roshan</item>
+    <item>Kaif</item>
+    <item>Shetty</item>
+    <item>Agarwal</item>
+    <item>Kapoor</item>
+    </string-array>
+
+    <string-array name="Native">
+        <item>Bellary</item>
+        <item>Gulbarga</item>
+        <item>Koppal</item>
+        <item>Delhi</item>
+        <item>Mumbai</item>
+        <item>Chandigarh</item>
+        <item>Bombay</item>
+        <item>Hyderabad</item>
+        <item>Mumbai</item>
+        <item>London</item>
+        <item>Banglore</item>
+        <item>vizag</item>
+    </string-array>
+</resources>
